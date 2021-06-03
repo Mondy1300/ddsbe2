@@ -15,6 +15,7 @@
     public $timestamps = false;
     protected $primaryKey = 'userid';
 
+    protected $hidden = ['password'];
  }
 
  ?>
